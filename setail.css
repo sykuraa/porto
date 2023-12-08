@@ -1,0 +1,174 @@
+body
+{
+    background-image: url(/img/cover.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body:before
+{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 60vh;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top,rgb(0,0,0), rgba(0,0,0,0));
+} 
+
+.navbar a 
+{
+    color: ghostwhite;
+}
+
+.navbar-brand
+{
+    padding: 0rem 2rem;
+    font-weight: 1000;
+    font-size: 25px;
+}
+
+.navbar-brand:hover
+{
+    
+    color: rgb(0, 31, 63);
+}
+
+.nav-item
+{
+    padding: 0.3rem 2rem;
+    font-weight: 500;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.nav-item:hover
+{
+    background-color: rgb(51, 51, 102);
+    color: rgb(51, 51, 102);
+}
+
+.text-landing
+{
+    color: whitesmoke;
+}
+
+.text-landing span
+{
+    color: whitesmoke;
+}
+
+.text-landing b
+{
+    font-weight: 900;
+}
+
+#aboutpage
+{
+    background-color:black;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+#aboutpage:before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to bottom,rgb(0,0,0), rgba(0,0,0,0));
+} 
+
+#aboutpage img
+{
+    width: 90%;
+    align-items: center;
+    box-sizing:content-box ;
+    border-radius: 3rem 3rem 0 0;
+    position:relative;
+}
+
+#aboutpage h2
+{
+    margin-block: 24px 36px;
+    font-size: 400;
+    text-align: center; 
+}
+
+.about-text
+{
+    text-align: center;
+}
+
+section img
+{
+    box-sizing: border-box;
+}
+
+.text-about img
+{
+    width: 80px;
+}
+
+
+.scrolling 
+{
+    width: 100%;
+    height: 10vh;
+    background: linear-gradient(to bottom, rgb(0,0,0), rgba(0,0,0,0));
+}
+
+.scrolling div 
+{
+    margin-top: 1px;
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: 999;
+}
+
+.projek-page .card-body
+{
+    color: white;
+    font-weight: 900;
+}
+
+
+footer
+{
+    background-color:black ;
+}
+
+footer ul li
+{
+    display: inline-flex;
+    background-color: white ;
+    border-radius: 20px;
+    transition: all 0.45s ease;
+}
+
+footer ul li:hover
+{
+    transform: scale(1);
+    background: black;
+    color: black;
+}
+
+footer ul li a img
+{
+    width: 1.5rem;
+}
+
+footer ul span
+{
+    color: black;
+    width: 100px;
+    justify-content: space-around;
+    font-weight: 900;
+    font-style:normal ;
+}
